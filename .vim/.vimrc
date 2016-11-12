@@ -1,12 +1,6 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-" Avoid extra shift
-nmap ; :
-nmap <leader>c :noh<cr>
-" General style stuff
-syntax on
-" colorscheme onedark
 set encoding=utf-8
 set tabstop=3
 set expandtab
@@ -21,6 +15,10 @@ set hlsearch
 set nowrap
 set confirm
 set noswapfile
+
+" Color scheme
+syntax on
+colorscheme solarized
 
 " Nerd tree toggle
 map <C-n> :NERDTreeToggle<CR>
