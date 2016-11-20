@@ -18,3 +18,4 @@ Pods
 node_modules/
 .env
 Carthage
+plug.vim

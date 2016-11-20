@@ -23,11 +23,12 @@ set foldcolumn=1
 set autoread
 
 " Indentation
+set tabstop=2
+set shiftwidth=2
 set expandtab
 set smarttab
 set ai
 set si
-set tabstop=2
 
 " Text wrapping
 set nowrap

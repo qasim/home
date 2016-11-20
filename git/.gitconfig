@@ -1,0 +1,13 @@
+[user]
+  name = Qasim Iqbal
+  email = me@qas.im
+  signingkey = 4B8BA9FE081F40AC
+[github]
+  user = qasim
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+[push]
+  default = current
+
