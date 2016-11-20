@@ -9,6 +9,6 @@ macOS 10.11.6
 ## Installation
 
 ```bash
-$ git clone https://github.com/qasim/dotfiles.git
+$ git clone --recursive https://github.com/qasim/dotfiles.git
 $ ./dotfiles/install.sh
 ```
