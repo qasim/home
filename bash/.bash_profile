@@ -2,12 +2,15 @@
 export PS1='[\W] $ '
 
 # Vim
-alias vim='nvim -u ~/.vimrc'
+alias vim='nvim'
 export EDITOR='nvim'
 
 # Tab completion
 bind 'set show-all-if-ambiguous on'
 bind 'set completion-ignore-case on'
+
+# Development
+alias dev='cd ~/Development'
 
 # Work
 alias bspec='~/Development/outlook-ios/app-ios/configurator/configurator.swift'
@@ -16,3 +19,4 @@ alias ol='open ~/Development/outlook-ios/app-ios/app-ios.xcworkspace'
 # Miscellaneous
 alias c='clear'
 alias ls='ls -G'
+alias reload='source ~/.bash_profile && clear'

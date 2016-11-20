@@ -1,19 +1,12 @@
 set nocompatible              " be iMproved
 
 " Plugins
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'VundleVim/Vundle.vim'
-
-Plugin 'editorconfig/editorconfig-vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'jeffkreeftmeijer/vim-numbertoggle'
-Plugin 'altercation/vim-colors-solarized'
-
-call vundle#end()
-filetype plugin indent on
+call plug#begin('~/.vim/plugged')
+Plug 'editorconfig/editorconfig-vim'
+Plug 'scrooloose/nerdtree'
+Plug 'jeffkreeftmeijer/vim-numbertoggle'
+Plug 'altercation/vim-colors-solarized'
+call plug#end()
 
 " Set standards
 set encoding=utf-8
