@@ -2,7 +2,7 @@
 export PS1='[\W] $ '
 
 # Vim
-alias vim='nvim'
+alias vim='nvim -u ~/.vimrc'
 export EDITOR='nvim'
 
 # Tab completion

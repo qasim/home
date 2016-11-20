@@ -1,21 +1,27 @@
-set nocompatible              " be iMproved, required
-filetype off                  " required
+set nocompatible              " be iMproved
+
+" Plugins
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'editorconfig/editorconfig-vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'jeffkreeftmeijer/vim-numbertoggle'
+Plugin 'altercation/vim-colors-solarized'
+
+call vundle#end()
+filetype plugin indent on
 
 " Set standards
 set encoding=utf-8
 set ffs=unix,dos,mac
 
-" Enable filetype plugins
-filetype plugin on
-filetype indent on
-
 " Syntax highlighting
 syntax enable
 colorscheme solarized
-
-" Status line
-set laststatus=2
-set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
 
 " Add margins
 set foldcolumn=1
@@ -65,16 +71,3 @@ set tm=500
 
 " Nerd tree
 map <C-n> :NERDTreeToggle<CR>
-
-" Plugins
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'VundleVim/Vundle.vim'
-
-Plugin 'editorconfig/editorconfig-vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'jeffkreeftmeijer/vim-numbertoggle'
-
-call vundle#end()            " required
-filetype plugin indent on    " required
