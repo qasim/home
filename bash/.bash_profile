@@ -9,6 +9,9 @@ export EDITOR='nvim'
 bind 'set show-all-if-ambiguous on'
 bind 'set completion-ignore-case on'
 
+# School
+alias cdf='ssh iqbalqa1@teach.cs.toronto.edu'
+
 # Development
 alias dev='cd ~/Development'
 
