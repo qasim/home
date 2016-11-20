@@ -15,4 +15,4 @@ alias ol='open ~/Development/outlook-ios/app-ios/app-ios.xcworkspace'
 
 # Miscellaneous
 alias c='clear'
-alias ls='ls -FGlAhp'
+alias ls='ls -G'
