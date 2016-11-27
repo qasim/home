@@ -59,9 +59,7 @@ set noswapfile
 
 " Disable error sounds
 set noerrorbells
-set novisualbell
-set t_vb=
-set tm=500
+set visualbell
 
 " Nerd tree
 map <C-n> :NERDTreeToggle<CR>

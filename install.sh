@@ -7,10 +7,19 @@ ln -sf `pwd`/bash/.bash_profile ~/.bash_profile
 
 # Vim
 echo "Installing vim configuration..."
-rm -rf ~/.config/nvim
-ln -sf `pwd`/vim ~/.config/nvim
-curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
+if [ "$(which nvim)" == "" ]; then
+  rm -rf ~/.vim
+  rm -rf ~/.vimrc
+  ln -sf `pwd`/vim ~/.vim
+  ln -sf `pwd`/vim/init.vim ~/.vimrc
+  curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+else
+  rm -rf ~/.config/nvim
+  ln -sf `pwd`/vim ~/.config/nvim
+  curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+fi
 
 # Git
 echo "Installing git configuration..."
