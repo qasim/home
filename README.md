@@ -4,7 +4,7 @@ My dotfiles.
 
 ## Environment
 
-macOS 10.11.6
+macOS 10.12
 
 ## Installation
 
