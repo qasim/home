@@ -4,8 +4,12 @@
 # Vim configuration
 #
 
-rm ~/.config/nvim/init.vim
-cp $1/init.vim ~/.config/nvim/init.vim
+if [[ $1 ]]; then
+  CWD=$1
+else
+  CWD=$(pwd)
+fi
 
-rm -r ~/.config/nvim/colors
-cp -r $1/colors ~/.config/nvim/colors
+mkdir -p ~/.config/nvim
+cp -rf $CWD/init.vim ~/.config/nvim/init.vim
+cp -rf $CWD/colors ~/.config/nvim/colors
