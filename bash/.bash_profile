@@ -2,12 +2,8 @@
 export PS1='[\W] $ '
 
 # Vim
-if [ "$(which nvim)" == "" ]; then
-  export EDITOR='vim'
-else
-  export vim='nvim'
-  export EDITOR='nvim'
-fi
+export vim='nvim'
+export EDITOR='nvim'
 
 # Tab completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
@@ -26,8 +22,6 @@ export ANDROID_HOME=/usr/local/opt/android-sdk
 
 # Work
 alias ol='cd ~/Development/outlook-ios'
-alias olx='open ~/Development/outlook-ios/app-ios/app-ios.xcworkspace'
-alias bspec='~/Development/outlook-ios/app-ios/configurator/configurator.swift'
 
 # Miscellaneous
 export GPG_TTY=$(tty)

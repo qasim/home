@@ -1,10 +1,10 @@
 # ~qasim
 
-My dotfiles.
+My dotfiles and machine setup.
 
 ## Environment
 
-macOS 10.12
+macOS 10.13
 
 ## Installation
 
