@@ -21,3 +21,5 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
 echo "Installing git configuration..."
 rm -rf ~/.gitconfig
 ln -sf `pwd`/git/.gitconfig ~/.gitconfig
+
+source ~/.bash_profile && clear
