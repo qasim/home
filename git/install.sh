@@ -4,10 +4,7 @@
 # Git configuration
 #
 
-if [[ $1 ]]; then
-  CWD=$1
-else
-  CWD=$(pwd)
-fi
+echo "Configuring git"
 
-cp -rf $CWD/.gitconfig ~/.gitconfig
+DIR=$(cd "$(dirname "$0")"; pwd -P)
+cp -rf $DIR/.gitconfig ~/.gitconfig

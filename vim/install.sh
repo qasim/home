@@ -4,12 +4,10 @@
 # Vim configuration
 #
 
-if [[ $1 ]]; then
-  CWD=$1
-else
-  CWD=$(pwd)
-fi
+echo "Configuring vim"
 
 mkdir -p ~/.config/nvim
-cp -rf $CWD/init.vim ~/.config/nvim/init.vim
-cp -rf $CWD/colors ~/.config/nvim/colors
+
+DIR=$(cd "$(dirname "$0")"; pwd -P)
+cp -rf $DIR/init.vim ~/.config/nvim/init.vim
+cp -rf $DIR/colors ~/.config/nvim/colors

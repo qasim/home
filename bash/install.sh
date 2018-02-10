@@ -4,10 +4,7 @@
 # Bash
 #
 
-if [[ $1 ]]; then
-  CWD=$1
-else
-  CWD=$(pwd)
-fi
+echo "Configuring bash"
 
-cp -rf $CWD/.bash_profile ~/.bash_profile
+DIR=$(cd "$(dirname "$0")"; pwd -P)
+cp -rf $DIR/.bash_profile ~/.bash_profile
