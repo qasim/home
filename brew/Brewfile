@@ -9,6 +9,7 @@ brew "node"
 brew "neovim"
 brew "tmux"
 brew "jq"
+brew "gnupg"
 
 cask "google-chrome"
 cask "1password"
