@@ -5,4 +5,4 @@
 #
 
 rm ~/.bash_profile
-cp .bash_profile ~/.bash_profile
+cp $1/.bash_profile ~/.bash_profile

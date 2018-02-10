@@ -5,4 +5,4 @@
 #
 
 rm ~/.gitconfig
-cp .gitconfig ~/.gitconfig
+cp $1/.gitconfig ~/.gitconfig

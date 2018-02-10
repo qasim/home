@@ -1,7 +1,9 @@
 #!/bin/bash
 
-for d in */; do
-  sh $d/install.sh
+for d in *; do
+  if [ -d ${d} ]; then
+    sh $d/install.sh "$(pwd)/$d"
+  fi
 done
 
-reset
+source ~/.bash_profile && clear
