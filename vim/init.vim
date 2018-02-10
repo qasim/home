@@ -1,20 +1,14 @@
 set nocompatible              " be iMproved
 
-" Plugins
-call plug#begin('~/.vim/plugged')
-Plug 'editorconfig/editorconfig-vim'
-Plug 'scrooloose/nerdtree'
-Plug 'jeffkreeftmeijer/vim-numbertoggle'
-Plug 'altercation/vim-colors-solarized'
-call plug#end()
-
 " Set standards
 set encoding=utf-8
 set ffs=unix,dos,mac
 
 " Syntax highlighting
 syntax enable
-colorscheme solarized
+set termguicolors
+colorscheme one
+set background=dark
 
 " Add margins
 set foldcolumn=1
@@ -60,6 +54,3 @@ set noswapfile
 " Disable error sounds
 set noerrorbells
 set visualbell
-
-" Nerd tree
-map <C-n> :NERDTreeToggle<CR>
