@@ -1,5 +1,5 @@
 # Bash prompt
-export PS1='[\W] $ '
+source $HOME/.bash_prompt
 
 # Vim
 export vim='nvim'
