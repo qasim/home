@@ -21,7 +21,7 @@ export PATH=$PATH:/usr/local/opt/go/libexec/bin
 export ANDROID_HOME=/usr/local/opt/android-sdk
 
 # Work
-alias ol='cd ~/Development/outlook-ios'
+alias ol='cd ~/Development/Work/outlook-ios'
 
 # Miscellaneous
 export GPG_TTY=$(tty)
