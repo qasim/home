@@ -2,7 +2,7 @@
 source $HOME/.bash_prompt
 
 # Vim
-export vim='nvim'
+alias vim='nvim'
 export EDITOR='nvim'
 
 # Tab completion
