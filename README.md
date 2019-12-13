@@ -4,7 +4,7 @@ My dotfiles and machine setup.
 
 ## Environment
 
-macOS 10.13
+macOS 10.15.2
 
 ## Installation
 

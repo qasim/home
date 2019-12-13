@@ -10,4 +10,3 @@ mkdir -p ~/.config/nvim
 
 DIR=$(cd "$(dirname "$0")"; pwd -P)
 cp -rf $DIR/init.vim ~/.config/nvim/init.vim
-cp -rf $DIR/colors ~/.config/nvim/colors

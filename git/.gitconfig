@@ -13,10 +13,10 @@
 [commit]
   gpgsign = true
 [gpg]
-  program = gpg
+  program = /usr/local/bin/gpg
 [filter "lfs"]
   clean = git-lfs clean -- %f
   smudge = git-lfs smudge -- %f
   required = true
-[includeIf "gitdir:~/Development/Work/"]
+[includeIf "gitdir:~/Development/work/"]
   path = ~/.gitconfig.work

@@ -7,8 +7,6 @@ set ffs=unix,dos,mac
 " Syntax highlighting
 syntax enable
 set termguicolors
-colorscheme one
-set background=dark
 
 " Add margins
 set foldcolumn=1

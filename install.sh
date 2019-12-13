@@ -5,5 +5,3 @@ for d in $(dirname "$0")/*; do
     sh $d/install.sh
   fi
 done
-
-clear
