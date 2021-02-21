@@ -4,10 +4,10 @@ My dotfiles and machine setup.
 
 ## Environment
 
-macOS 10.15.2
+macOS 11
 
 ## Installation
 
 ```bash
-git clone https://github.com/qasim/dotfiles.git && ./dotfiles/install.sh
+git clone https://github.com/qasim/dotfiles.git && ./dotfiles/configure.sh
 ```

@@ -1,25 +1,18 @@
 #!/bin/bash
 
-#
-# Xcode
-#
+echo "Configuring xcode"
 
 if ! [ -x "$(which xcversion)" ]; then
-  echo "Installing Xcode"
+  echo "Installing xcversion"
   sudo gem install xcode-install
-  xcversion list
-  echo "Please choose an Xcode version to install."
-  read -p "Xcode version: " version
-  xcversion install "$version"
-  xcversion select "$version"
-  sudo xcodebuild -license accept
 fi
 
-#
-# Xcode preferences
-#
+xcversion list
+read -p "Choose an Xcode version to install: " version
+xcversion install "$version"
+xcversion select "$version"
 
-echo "Configuring Xcode"
+sudo xcodebuild -license accept
 
 defaults write com.apple.dt.Xcode DVTTextEditorTrimTrailingWhitespace -bool true
 defaults write com.apple.dt.Xcode DVTTextEditorTrimWhitespaceOnlyLines -bool true
