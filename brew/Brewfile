@@ -2,7 +2,6 @@ brew "git"
 brew "gnupg2"
 brew "neovim"
 brew "node"
-brew "python2"
 brew "python3"
 
 cask "1password"
