@@ -1,5 +1,6 @@
 brew "git"
 brew "fish"
+brew "starship"
 brew "pinentry-mac"
 brew "gnupg2"
 brew "neovim"
