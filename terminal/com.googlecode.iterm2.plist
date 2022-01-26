@@ -379,6 +379,8 @@
 	<true/>
 	<key>HideTab</key>
 	<true/>
+	<key>HideTabNumber</key>
+	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -698,6 +700,10 @@
 			<string>No</string>
 			<key>Custom Directory</key>
 			<string>No</string>
+			<key>Custom Tab Title</key>
+			<string> </string>
+			<key>Custom Window Title</key>
+			<string> </string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Description</key>
@@ -1055,7 +1061,7 @@
 			<key>Screen</key>
 			<integer>-2</integer>
 			<key>Scrollback Lines</key>
-			<integer>1000</integer>
+			<integer>0</integer>
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Alpha Component</key>
@@ -1112,10 +1118,14 @@
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Unlimited Scrollback</key>
-			<false/>
+			<true/>
 			<key>Use Bold Font</key>
 			<true/>
 			<key>Use Bright Bold</key>
+			<true/>
+			<key>Use Custom Tab Title</key>
+			<true/>
+			<key>Use Custom Window Title</key>
 			<true/>
 			<key>Use Italic Font</key>
 			<true/>
@@ -1176,6 +1186,8 @@
 	<false/>
 	<key>TabStyleWithAutomaticOption</key>
 	<integer>5</integer>
+	<key>TabsHaveCloseButton</key>
+	<true/>
 	<key>TerminalMargin</key>
 	<integer>16</integer>
 	<key>TerminalVMargin</key>
@@ -1183,6 +1195,8 @@
 	<key>UseBorder</key>
 	<false/>
 	<key>VisualIndicatorForEsc</key>
+	<false/>
+	<key>WindowNumber</key>
 	<false/>
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
