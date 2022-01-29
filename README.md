@@ -1,13 +1,9 @@
-# ~qasim
+# qasim/dotfiles
 
 My dotfiles and machine setup.
-
-## Environment
-
-macOS 11
 
 ## Installation
 
 ```bash
-git clone https://github.com/qasim/dotfiles.git && ./dotfiles/configure.sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/qasim/dotfiles/HEAD/.dotfiles/install.sh)"
 ```

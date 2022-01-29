@@ -1,5 +1,4 @@
 #!/bin/bash
-DIR=$(cd "$(dirname "$0")"; pwd -P)
 
 echo "Configuring dock"
 defaults write com.apple.dock persistent-apps -array
@@ -71,10 +70,10 @@ defaults write com.apple.frameworks.diskimages skip-verify -bool true
 defaults write com.apple.frameworks.diskimages skip-verify-locked -bool true
 defaults write com.apple.frameworks.diskimages skip-verify-remote -bool true
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
-chflags nohidden ~/Library && xattr -d com.apple.FinderInfo ~/Library
+chflags nohidden ~/Library
 sudo chflags nohidden /Volumes
 defaults write com.apple.finder FXInfoPanesExpanded -dict \
 	General -bool true \
 	OpenWith -bool true \
 	Privileges -bool true
-killall finder
+killall Finder
