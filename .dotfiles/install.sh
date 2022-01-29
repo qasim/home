@@ -8,3 +8,6 @@ rm -r ~/dotfiles
 
 echo "Setting up machine"
 ~/.dotfiles/setup.sh
+
+echo "Cleaning up"
+cd ~ && git remote set-url origin git@github.com:qasim/dotfiles.git
