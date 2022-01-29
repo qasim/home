@@ -1,9 +1,13 @@
-# qasim/dotfiles
+# ~
 
-My dotfiles and machine setup.
+The version-controlled subtree of my home directory, including machine setup.
+
+## Requirements
+
+A machine running macOS 12.1.
 
 ## Installation
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/qasim/dotfiles/HEAD/.dotfiles/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/qasim/home/HEAD/.home/install.sh)"
 ```

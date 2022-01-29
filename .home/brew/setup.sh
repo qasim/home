@@ -7,4 +7,4 @@ if ! [ -x "$(which brew)" ]; then
 fi
 
 echo "Running Brewfile"
-brew bundle --file=~/.dotfiles/brew/Brewfile
+brew bundle --file=~/.home/brew/Brewfile

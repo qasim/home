@@ -8,8 +8,8 @@
 !.config/nvim/
 !.config/nvim/init.vim
 
-!.dotfiles/
-!.dotfiles/**
+!.home/
+!.home/**
 
 !reaper/
 !reaper/Microphone.rpp

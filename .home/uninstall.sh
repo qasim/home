@@ -10,6 +10,6 @@ if [ -d .git ]; then
     rm -r .git
 fi
 rm -r reaper
-rm -r .dotfiles
+rm -r .home
 
 echo "Done!"
