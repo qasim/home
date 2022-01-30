@@ -4,7 +4,8 @@ The version-controlled subtree of my home directory, including machine setup.
 
 ## Requirements
 
-A machine running macOS 12.1.
+- A machine running macOS
+- My GitHub credentials
 
 ## Installation
 
