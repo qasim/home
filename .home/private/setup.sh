@@ -15,4 +15,6 @@ then
 
     echo "Setting up private submodule"
     ~/.private/setup.sh
+else
+    echo "Skipping private submodule setup"
 fi
