@@ -8,6 +8,8 @@
 	diff = auto
 	status = auto
 	branch = auto
+[pull]
+	rebase = true
 [push]
 	default = current
 [commit]
