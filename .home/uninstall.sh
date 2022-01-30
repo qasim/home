@@ -14,5 +14,3 @@ fi
 rm -r .home
 chmod -R a+w .private
 rm -r .private
-
-echo "Done!"
