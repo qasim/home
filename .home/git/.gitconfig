@@ -28,5 +28,3 @@
 	whitespace = trailing-space,space-before-tab
 [diff]
 	mnemonicprefix = true
-[credential]
-	helper = /usr/local/bin/git-credential-manager-core
