@@ -1,20 +1,4 @@
-[user]
-  name = Qasim Iqbal
-  email = me@qas.im
-  signingkey = 4B8BA9FE081F40AC
-[github]
-  user = qasim
-[color]
-  diff = auto
-  status = auto
-  branch = auto
-[push]
-  default = current
-[commit]
-  gpgsign = true
-[gpg]
-  program = gpg
-[filter "lfs"]
-  clean = git-lfs clean -- %f
-  smudge = git-lfs smudge -- %f
-  required = true
+[include]
+	path = ~/.home/git/.gitconfig
+[includeIf "gitdir:/Users/qasim-instacart/"]
+	path = ~/.home/git/.gitconfig-instacart

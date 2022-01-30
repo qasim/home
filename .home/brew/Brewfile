@@ -6,7 +6,7 @@ brew "gnupg2"
 brew "neovim"
 brew "python3"
 
-cask "1password"
+cask "1password-beta"
 cask "1password-cli"
 cask "blackhole-2ch"
 cask "google-chrome"
