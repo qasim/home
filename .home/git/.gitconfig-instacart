@@ -1,2 +1,8 @@
 [user]
-  email = qasim.iqbal@instacart.com
+	email = qasim.iqbal@instacart.com
+[feature]
+	manyFiles = 1
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[mergetool]
+	keepBackup = false
