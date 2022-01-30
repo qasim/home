@@ -1,4 +1,4 @@
 [include]
 	path = ~/.home/git/.gitconfig
 [includeIf "gitdir:/Users/qasim-instacart/"]
-	path = ~/.home/git/.gitconfig-instacart
+	path = ~/.home/git/instacart/.gitconfig

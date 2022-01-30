@@ -1,5 +1,6 @@
 [user]
 	email = qasim.iqbal@instacart.com
+	signingkey = 4EF2F27B8003CA6B
 [feature]
 	manyFiles = 1
 [credential "https://dev.azure.com"]
