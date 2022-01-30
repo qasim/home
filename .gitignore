@@ -14,9 +14,10 @@
 !.private/
 !.private/**
 
-!reaper/
-!reaper/Microphone.rpp
-!reaper/README.md
+!Documents/
+!Documents/REAPER Media/
+!Documents/REAPER Media/Microphone.rpp
+!Documents/REAPER Media/README.md
 
 !.gitconfig
 !.gitignore

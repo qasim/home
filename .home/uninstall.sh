@@ -3,7 +3,7 @@
 echo "Removing tracked files"
 cd ~
 if [ -d .git ]; then
-    for file in $(git ls-tree -r main --name-only); do
+    for file in $(git ls-tree --full-tree -r --name-only HEAD); do
         if [ -f $file ]; then
             rm "$file"
         fi
@@ -11,7 +11,6 @@ if [ -d .git ]; then
     chmod -R a+w .git
     rm -r .git
 fi
-rm -r reaper
 rm -r .home
 chmod -R a+w .private
 rm -r .private
