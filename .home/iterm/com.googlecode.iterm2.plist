@@ -701,9 +701,9 @@
 			<key>Custom Directory</key>
 			<string>No</string>
 			<key>Custom Tab Title</key>
-			<string> </string>
+			<string></string>
 			<key>Custom Window Title</key>
-			<string> </string>
+			<string></string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Description</key>
@@ -1124,9 +1124,9 @@
 			<key>Use Bright Bold</key>
 			<true/>
 			<key>Use Custom Tab Title</key>
-			<true/>
+			<false/>
 			<key>Use Custom Window Title</key>
-			<true/>
+			<false/>
 			<key>Use Italic Font</key>
 			<true/>
 			<key>Use Non-ASCII Font</key>
