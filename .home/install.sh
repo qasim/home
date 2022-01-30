@@ -13,5 +13,3 @@ echo "Setting up machine"
 
 echo "Cleaning up"
 cd ~ && git remote set-url origin git@github.com:qasim/home.git
-
-echo "Done!"
