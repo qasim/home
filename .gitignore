@@ -21,8 +21,8 @@
 
 !.gitconfig
 !.gitignore
+!.gitmodules
 !.hushlogin
-!install.sh
 !README.md
 
 # Ignore list
