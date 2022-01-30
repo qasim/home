@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Configuring dock"
+echo "Setting up Dock"
 defaults write com.apple.dock persistent-apps -array
 defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock autohide-delay -int 0
@@ -16,7 +16,7 @@ defaults write com.apple.dock wvous-br-corner -int 0
 defaults write com.apple.dock wvous-br-modifier -int 0
 killall Dock
 
-echo "Configuring Spotlight"
+echo "Setting up Spotlight"
 # Change indexing order and disable some search results
 defaults write com.apple.spotlight orderedItems -array \
 	'{"enabled" = 1;"name" = "APPLICATIONS";}' \
@@ -48,7 +48,7 @@ sudo mdutil -i on / > /dev/null
 # Rebuild the index from scratch
 sudo mdutil -E / > /dev/null
 
-echo "Configuring trackpad"
+echo "Setting up trackpad"
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
@@ -57,7 +57,7 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 defaults write NSGlobalDomain KeyRepeat -int 4
 defaults write NSGlobalDomain InitialKeyRepeat -int 16
 
-echo "Configuring Finder"
+echo "Setting up Finder"
 defaults write com.apple.finder QuitMenuItem -bool true
 defaults write com.apple.finder DisableAllAnimations -bool true
 defaults write com.apple.finder NewWindowTarget -string "PfDe"
