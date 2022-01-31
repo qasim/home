@@ -5,3 +5,5 @@
 	manyFiles = 1
 [mergetool]
 	keepBackup = false
+[url "git@github.com:"]
+	insteadOf = https://github.com/
