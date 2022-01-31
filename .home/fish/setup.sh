@@ -1,4 +1,5 @@
 #!/bin/bash
 
 echo "Setting up fish"
-echo $(which fish) | sudo tee -a /etc/shells
+echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells
+chsh -s /opt/homebrew/bin/fish
