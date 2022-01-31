@@ -8,6 +8,9 @@
 !.config/nvim/
 !.config/nvim/init.vim
 
+!.gnupg/
+!.gnupg/gpg-agent.conf
+
 !.home/
 !.home/**
 
