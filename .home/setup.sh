@@ -5,3 +5,4 @@
 ~/.home/private/setup.sh
 ~/.home/fish/setup.sh
 ~/.home/iterm/setup.sh
+~/.home/gpg/setup.sh
