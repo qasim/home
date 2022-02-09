@@ -8,6 +8,7 @@ brew "pinentry-mac"
 brew "gnupg2"
 brew "neovim"
 brew "python3"
+brew "cmake"
 
 cask "1password-beta"
 cask "1password-cli"
