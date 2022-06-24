@@ -18,6 +18,8 @@
 !.private/**
 
 !Documents/
+!Documents/Keyboard/
+!Documents/Keyboard/**
 !Documents/REAPER Media/
 !Documents/REAPER Media/Microphone.rpp
 !Documents/REAPER Media/README.md
