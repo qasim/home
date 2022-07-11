@@ -5,4 +5,3 @@
 ~/.home/private/setup.sh
 ~/.home/iterm/setup.sh
 ~/.home/gpg/setup.sh
-~/.home/rnnoise/setup.sh
