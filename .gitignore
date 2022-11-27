@@ -5,6 +5,8 @@
 !.config/
 !.config/nvim/
 !.config/nvim/init.vim
+!.config/alacritty/
+!.config/alacritty/alacritty.yml
 
 !.gnupg/
 !.gnupg/gpg-agent.conf
