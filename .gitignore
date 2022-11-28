@@ -7,6 +7,8 @@
 !.config/nvim/init.vim
 !.config/alacritty/
 !.config/alacritty/alacritty.yml
+!.config/spaceship/
+!.config/spaceship/spaceship.zsh
 
 !.gnupg/
 !.gnupg/gpg-agent.conf
@@ -20,6 +22,11 @@
 !Documents/
 !Documents/Keyboard/
 !Documents/Keyboard/**
+
+!Pictures/
+!Pictures/Wallpaper/
+!Pictures/Wallpaper/**
+!Pictures/profile.jpg
 
 !.gitconfig
 !.gitignore
