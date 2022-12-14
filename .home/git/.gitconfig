@@ -17,9 +17,7 @@
 [gpg]
 	program = gpg
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	required = true
+	process = git-lfs filter-process
 [http]
 	postBuffer = 524288000
 [merge]
