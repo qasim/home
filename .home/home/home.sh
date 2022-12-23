@@ -5,7 +5,7 @@
 case "$1" in
  -x|--disable)
   # off
-  if [ ! -d .xgit ]; then
+  if [ ! -d "$HOME/.xgit" ]; then
     echo "disabling .git"
     mv $HOME/.git $HOME/.xgit
   else
@@ -15,7 +15,7 @@ case "$1" in
   ;;
  *)
   # on
-  if [ ! -d .git ]; then
+  if [ ! -d "$HOME/.git" ]; then
     echo "enabling .git"
     mv $HOME/.xgit $HOME/.git
   else
