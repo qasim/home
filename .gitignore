@@ -22,6 +22,12 @@
 !Documents/
 !Documents/Keyboard/
 !Documents/Keyboard/**
+!Documents/REAPER Media/
+!Documents/REAPER Media/Microphone.rpp
+!Documents/REAPER Media/README.md
+!Documents/REAPER Media/Plugins/
+!Documents/REAPER Media/Plugins/rnnoise/
+!Documents/REAPER Media/Plugins/rnnoise/**
 
 !Pictures/
 !Pictures/Wallpaper/

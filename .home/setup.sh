@@ -5,3 +5,4 @@
 ~/.home/brew/setup.sh
 ~/.home/private/setup.sh
 ~/.home/gpg/setup.sh
+~/.home/rnnoise/setup.sh
