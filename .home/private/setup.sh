@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# TODO: make this happen without a submodule
+
 echo "Fetching private submodule"
 cd $HOME && git submodule update --init .private
 
