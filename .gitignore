@@ -14,8 +14,8 @@
 !.home/
 !.home/**
 
-!.private/
-!.private/**
+!.ssh/
+!.ssh/config
 
 !Documents/
 !Documents/Keyboard/
