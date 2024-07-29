@@ -1,7 +1,7 @@
 [user]
 	name = Qasim Iqbal
 	email = me@qas.im
-	signingkey = 4B8BA9FE081F40AC
+	signingkey = ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCmQEubgp5jeV3+iK3YzYv/NkC+YnmAsRVoihGrqAlf9KEGYcU5AiK3WwYS8wZO+mqzis3H2aAepHIZgxf0oLoN/QAlt61zULPkTQyFz03AaMeIo1SRhIruS6i9KaGe3bTiIIfFmQISwtn1EAObHFJWnDdadzrBPdwsIkGQtOZDuH5M7cReOU/OrIE7mLq1rNPz9QkyG4B+BlG+pZd24ezksWC+wQQJOiU9tAWgZLNcG9/e5t2B3Zk+9n38RC7loRC69gMBQuHHX++olvd1tNmddVg8DbEl036FvLvef0EKv5rIf91/JeYcyt71pB7UCSRJev/4VifntySBPfCTNMtL7pTt+e7zQ72e/P90ph8bZ4065fPgfRhHjmUTD6VHI1jx1MN+q3GnbtI15WdUnVNR2b5ozYhqBgGGs+LR7J8j1nP4aqnRzDm//Syu5ZGr8ozB31wDQyxYM/Un7nZuQxFcX44oVikZwhVjW4EtiRxgvD/AlPSj9047UaWVUJmfffvRqAnmCcIWUTwVRDbaLMpfa2HuuhYyp79bDOrCBj0cPmU8MYHxCZ91qcJ7TOORm20hwHI3bBB7LmD+P4xJEccgXpRiLSACTPO7BkuF+4hiGv/XlCk39yMmtjIpYacbjpH4M8zP8RSLqFft7CgR0UnElLN40YQdVqsBkELIT2bdqQ==
 [github]
 	user = qasim
 [color]
@@ -15,7 +15,9 @@
 [commit]
 	gpgsign = true
 [gpg]
-	program = gpg
+	format = ssh
+[gpg "ssh"]
+	program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
 [filter "lfs"]
 	process = git-lfs filter-process
 [http]
