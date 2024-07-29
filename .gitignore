@@ -5,8 +5,6 @@
 !.config/
 !.config/nvim/
 !.config/nvim/init.vim
-!.config/alacritty/
-!.config/alacritty/alacritty.yml
 !.config/spaceship/
 !.config/spaceship/spaceship.zsh
 
@@ -22,21 +20,9 @@
 !Documents/
 !Documents/Keyboard/
 !Documents/Keyboard/**
-!Documents/REAPER Media/
-!Documents/REAPER Media/Microphone.rpp
-!Documents/REAPER Media/README.md
-!Documents/REAPER Media/Plugins/
-!Documents/REAPER Media/Plugins/rnnoise/
-!Documents/REAPER Media/Plugins/rnnoise/**
-
-!Pictures/
-!Pictures/Wallpaper/
-!Pictures/Wallpaper/**
-!Pictures/profile.jpg
 
 !.gitconfig
 !.gitignore
-!.gitmodules
 !.hushlogin
 !.tmux.conf
 !.zprofile
